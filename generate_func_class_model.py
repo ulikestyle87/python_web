@@ -67,8 +67,8 @@ if __name__ == '__main__':
     suite = unittest.TestLoader().loadTestsFromTestCase(NewsappTest)
     runner = HTMLTestRunner.HTMLTestRunner(
         stream=re_open,
-        title=u'海客新闻测试报告',
-        description=u'海客新闻测试详情'
+        title=u'测试报告',
+        description=u'测试详情'
     )
     # print(suite)
     runner.run(suite)
