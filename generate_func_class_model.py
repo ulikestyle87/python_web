@@ -57,7 +57,6 @@ class Newsapp():
 import requests, unittest, json, HTMLTestRunner
 from config import configs
 
-
 class NewsappTest(unittest.TestCase):
     {strmodel}
 
